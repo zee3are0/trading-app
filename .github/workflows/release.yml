@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: zulu
           java-version: "17"
@@ -24,12 +24,11 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          # Pin to the same version as the TastyNoms builds — the version
-          # confirmed working on Donald's Windows machine. Cloud Shell runs
-          # 3.47.8 but that has NOT been validated for release APKs on device.
-          # Only change this to a version confirmed from `flutter --version`
-          # on Donald's Windows box.
-          flutter-version: '3.41.9'
+          # This app was created with 3.47.8 (Dart 3.13.7). The TastyNoms
+          # pin at 3.41.9 is for that app's device history — this is a new
+          # app with no legacy AOT snapshot concerns. Only change this after
+          # confirming the new version builds AND launches on device.
+          flutter-version: '3.47.8'
           channel: stable
           cache: true
 
