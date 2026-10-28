@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "637972240315",
+    "project_id": "foodplanner-495417",
+    "storage_bucket": "foodplanner-495417.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637972240315:android:ed25c28b2b2d5ba682169e",
+        "android_client_info": {
+          "package_name": "com.tastynoms.tastynoms_os"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637972240315-01thbl6nrnv4hsl0hp52og4e32cjtfdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tastynoms.tastynoms_os",
+            "certificate_hash": "448776a8d4a22a62acf2c54331edeb13b8638ab7"
+          }
+        },
+        {
+          "client_id": "637972240315-r9h4hl71k38k30skp3dq2iu62h2us7cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tastynoms.tastynoms_os",
+            "certificate_hash": "4b09e02631418b6bcf4cb07eef338e17c7733e68"
+          }
+        },
+        {
+          "client_id": "637972240315-1fri7e108laudvblvksu07tpcgih1fmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyAI4Bkw3EW90jhDoYVlKR-kmTcrMIf5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637972240315-1fri7e108laudvblvksu07tpcgih1fmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637972240315:android:1dec87aca9893bc782169e",
+        "android_client_info": {
+          "package_name": "com.tastynoms.tastynoms_os.tv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637972240315-1fri7e108laudvblvksu07tpcgih1fmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyAI4Bkw3EW90jhDoYVlKR-kmTcrMIf5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637972240315-1fri7e108laudvblvksu07tpcgih1fmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637972240315:android:4c02686b5ff89a3e82169e",
+        "android_client_info": {
+          "package_name": "us.z3r0.tradingbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637972240315-f81msbsq7bvcturppkb3tibfvje05vt9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "us.z3r0.tradingbot",
+            "certificate_hash": "448776a8d4a22a62acf2c54331edeb13b8638ab7"
+          }
+        },
+        {
+          "client_id": "637972240315-1fri7e108laudvblvksu07tpcgih1fmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyAI4Bkw3EW90jhDoYVlKR-kmTcrMIf5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637972240315-1fri7e108laudvblvksu07tpcgih1fmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
