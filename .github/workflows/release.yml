@@ -78,6 +78,6 @@ jobs:
         with:
           appId: ${{ secrets.FIREBASE_APP_ID }}
           serviceCredentialsFileContent: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          groups: household
+          groups: trading
           file: build/app/outputs/flutter-apk/app-release.apk
           releaseNotes: ${{ github.event.inputs.notes != '' && github.event.inputs.notes || github.event.head_commit.message }}
