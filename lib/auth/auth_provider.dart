@@ -3,7 +3,10 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthProvider extends ChangeNotifier {
-  final GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email', 'openid']);
+  final GoogleSignIn _googleSignIn = GoogleSignIn(
+    scopes: ['email', 'openid'],
+    serverClientId: '637972240315-1fri7e108laudvblvksu07tpcgih1fmf.apps.googleusercontent.com',
+  );
 
   GoogleSignInAccount? _user;
   String? _idToken;
