@@ -23,10 +23,12 @@ class ApiClient {
         handler.next(options);
       },
       onError: (error, handler) async {
-        if (error.response?.statusCode == 401) {
+        if (error.response?.statusCode == 401 &&
+            error.requestOptions.extra['_retried'] != true) {
           final token = await _auth.getValidToken();
           if (token != null) {
             error.requestOptions.headers['Authorization'] = 'Bearer $token';
+            error.requestOptions.extra['_retried'] = true;
             final retryResponse = await dio.fetch(error.requestOptions);
             return handler.resolve(retryResponse);
           }
